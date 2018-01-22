@@ -37,3 +37,19 @@ OR
 `sudo /etc/init.d/nginx restart`
 
 
+## Dealing with error messages on screen
+If the nginx server failed to start or stop or restart, check for the syntax error:
+
+`nginx -t`
+
+ OR set path to config file and test for the errors 
+
+`nginx -c /etc/nginx/nginx.conf -t`
+
+## To view status of your server
+
+
+Use any one of the following command:
+`sudo service status nginx`
+OR 
+`sudo systemctl status nginx`
