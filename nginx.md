@@ -10,7 +10,7 @@ The nginx web server can be restarted using any one of the following command lin
 
 OR (older Ubuntu Linux version):
 
-`OR (older Ubuntu Linux version):`
+`sudo /etc/init.d/nginx restart`
 
 The same commands can be used to start / stop / restart the nginx server on a Ubuntu Linux:
 
