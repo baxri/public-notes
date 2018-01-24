@@ -40,14 +40,23 @@ The configuration can also be in JSON format.
 Then you can run and manage your processes easily:
 
 Start all applications
+
 `pm2 start ecosystem.config.js`
+
 Start only the app named worker-app
+
 `pm2 start ecosystem.config.js --only worker-app`
+
 Stop all
+
 `pm2 stop ecosystem.config.js`
+
 Restart all
+
 `pm2 restart ecosystem.config.js`
+
 Delete all
+
 `pm2 delete ecosystem.config.js`
 
 ### Act on a specific process
