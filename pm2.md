@@ -65,6 +65,10 @@ You can also act on a particular application by using its name and the option --
 
 `pm2 start   ecosystem.config.js --only api-app`
 
+## Generating a startup script
+
+[Docs](http://pm2.keymetrics.io/docs/usage/startup/#saving-current-process-list)
+
 
 
 
