@@ -62,6 +62,7 @@ Delete all
 ### Act on a specific process
 
 You can also act on a particular application by using its name and the option --only <app_name>:
+
 `pm2 start   ecosystem.config.js --only api-app`
 
 
