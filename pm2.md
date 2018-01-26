@@ -10,7 +10,7 @@ To generate a sample process file you can type this command:
 `pm2 ecosystem`
 
 This will generate a sample, ecosystem.config.js.
-To generate a ecosystem file without any comment just run.
+To generate a ecosystem file without any comment just run. Generates more comatc file.
 
 `pm2 ecosystem simple`
 

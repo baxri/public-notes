@@ -21,6 +21,7 @@ In the above command, there is no space between -p and 'OLDPASSWORD'. If you put
 After you issue that command, you will be prompted for your sudo (or administrator) password. This is not the MySQL root user password, but the system (or sudo) admin password.
 
 ## Recover your MySQL password
+
 What if you've forgotten your MySQL root user password? This could be quite the predicament ... had the developers not thought of that eventuality. In order to recover the password, you simply have to follow these steps:
 
 Stop the MySQL server process with the command sudo service mysql stop
