@@ -80,3 +80,6 @@ server {
   }
 }
 ```
+## htaccess to nginx converter
+
+[Converter](https://winginx.com/en/htaccess)
