@@ -45,3 +45,19 @@ At this point, you need to issue the following MySQL commands to reset the root 
 Restart the MySQL daemon with the command sudo service mysql restart. You should now be able to log into MySQL with the new password.
 
 And that's it. You can now set, reset, and recover your MySQL password.
+
+## Open mysql server for remote connections
+
+On your database server, as a user with root privileges, open your MySQL configuration file.
+To locate it, enter the following command:
+
+`mysql --help`
+
+On Ubuntu 16, the path is typically /etc/mysql/mysql.conf.d/mysqld.cnf.
+
+`bind-address = <ip address of your Magento web node>`
+
+Restart Mysql CentOS: `service mysqld restart`
+Restart Mysql Ubuntu: `service mysql restart`
+
+
