@@ -74,10 +74,6 @@ First start by adding Ondřej Surý PPA to install different versions of PHP –
 
 `php -i | grep "Loaded Configuration File"`
 
-```cli
-sudo a2dismod php7.0
-`php -i | grep "Loaded Configuration File"`
-```
 
 
 
