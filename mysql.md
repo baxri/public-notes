@@ -60,4 +60,8 @@ On Ubuntu 16, the path is typically /etc/mysql/mysql.conf.d/mysqld.cnf.
 Restart Mysql CentOS: `service mysqld restart`
 Restart Mysql Ubuntu: `service mysql restart`
 
+You may also need to open port. Examle on ubuntu.
+
+`sudo ufw allow 3306/tcp`
+`sudo service ufw restart`
 
