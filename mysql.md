@@ -55,7 +55,7 @@ To locate it, enter the following command:
 
 On Ubuntu 16, the path is typically /etc/mysql/mysql.conf.d/mysqld.cnf.
 
-`bind-address = <ip address of your Magento web node>`
+`bind-address = {ip-address}`
 
 Restart Mysql CentOS: `service mysqld restart`
 Restart Mysql Ubuntu: `service mysql restart`
